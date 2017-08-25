@@ -1,0 +1,10 @@
+http://answers.opencv.org/question/37211/ways-of-doing-people-detection/
+
+As @Witek already described, packages like doppia, created by rodrigo benenson are quite powerfull and will meet your real time requirements. However, if you want another approach, based on picture by picture analysis, these are the techniques that openCV supports.
+
+-Cascade classification based on the AdaBoost principle using the Viola & Jones framework. Click here for more information. This can be done with HAAR, LBP and HOG features.
+-You can use the Histogram Of Oriented Gradient approach created by Dallal & Triggs, which is explained right here. It combines HOG descriptors and SVM classification.
+-The part based modeling has an early implementation in OpenCV called LatentSVM of which documentation is found here(http://docs.opencv.org/modules/objdetect/doc/latent_svm.html?highlight=hog).
+-With a static background you could use efficient background subtraction using Gaussian Mixture Models to improve the detection results.
+
+And to add to this, even if you use these techniques, using knowledge like a fixed scale or a limited scale range combined with the efficient use of a tracker can get you real time performance!

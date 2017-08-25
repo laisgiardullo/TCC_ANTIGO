@@ -1,0 +1,9 @@
+FUNCOES DE DESENHO:
+
+http://docs.opencv.org/2.4/modules/core/doc/drawing_functions.html
+
+BACKGROUND:
+http://docs.opencv.org/trunk/db/d5c/tutorial_py_bg_subtraction.html
+
+OPTICAL FLOW:
+https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_video/py_lucas_kanade/py_lucas_kanade.html

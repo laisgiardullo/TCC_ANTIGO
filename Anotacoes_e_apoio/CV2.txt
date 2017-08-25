@@ -1,0 +1,9 @@
+FUNCOES DE DESENHO:
+
+http://docs.opencv.org/2.4/modules/core/doc/drawing_functions.html
+
+BACKGROUND:
+http://docs.opencv.org/trunk/db/d5c/tutorial_py_bg_subtraction.html
+MOD2:
+It is also a Gaussian Mixture-based Background/Foreground Segmentation Algorithm. It is based on two papers by Z.Zivkovic, "Improved adaptive Gausian mixture model for background subtraction" in 2004 and "Efficient Adaptive Density Estimation per Image Pixel for the Task of Background Subtraction" in 2006. One important feature of this algorithm is that it selects the appropriate number of gaussian distribution for each pixel. (Remember, in last case, we took a K gaussian distributions throughout the algorithm). It provides better adaptibility to varying scenes due illumination changes etc.
+As in previous case, we have to create a background subtractor object. Here, you have an option of selecting whether shadow to be detected or not. If detectShadows = True (which is so by default), it detects and marks shadows, but decreases the speed. Shadows will be marked in gray color.

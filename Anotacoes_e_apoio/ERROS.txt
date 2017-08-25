@@ -1,0 +1,7 @@
+Video nao abrindo:
+
+https://stackoverflow.com/questions/42210880/python-cv2-videocapture-does-not-work-cap-isopened-returns-false
+Copy all the file from *OpenCV\3rdparty\ffmpeg* to *C:\Python27* or to a directory that is in the PATH. Renaming the opencv_ffmpeg.dll file may also be necessary. For OpenCV version X.Y.Z opencv_ffmpeg.dll ==> opencv_ffmpegXYZ.dll For 64-bit OpenCV version X.Y.Z opencv_ffmpeg.dll ==> opencv_ffmpegXYZ_64.dll
+
+
+You can find out what attributes are available by using "help(cv2)" in your python shell.

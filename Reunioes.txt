@@ -1,0 +1,13 @@
+25/08
+ONDE ESTAMOS:
+- Detecção retirando o background e binarizando (mudamos algoritmos de contorno e binarização)
+- Falta integração com imagens (Saint Clair)
+
+Problemas/Pedidos:
+- Imagem "instável", pessoas muito juntas
+- Ter video desde o inicio do restaurante (quando não tem ninguém)
+- Ter video de outro ângulo (reparar nas pessoas da parte de trás: não dá pra ver nenhuma mesa de lá)
+
+Ideias:
+- Tamanho maximo e minimo para ser uma pessoa, juntar pontos próximos
+
